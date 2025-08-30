@@ -38,8 +38,8 @@ jobs:
           SSH_KEY: ${{ secrets.SSH_KEY }}
         run: |
           mkdir -p ~/.ssh
-          echo "$SSH_KEY" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
+          echo "$SSH_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
           ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
 
       - name: Deploy via rsync
@@ -51,5 +51,5 @@ jobs:
         run: |
           PORT_OPT=""
           if [ -n "$SSH_PORT" ]; then PORT_OPT="-p $SSH_PORT"; fi
-          RSYNC_RSH="ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=yes $PORT_OPT"
+          RSYNC_RSH="ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=yes $PORT_OPT"
           rsync -az --delete -e "$RSYNC_RSH" --rsync-path="mkdir -p $SSH_TARGET_DIR && rsync" site/ "$SSH_USER@$SSH_HOST:$SSH_TARGET_DIR"
