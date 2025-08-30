@@ -8,7 +8,6 @@ theme:
     - navigation.tracking
     - search.suggest
     - search.highlight
-    - toc.integrate
   palette:
     - scheme: default
       primary: white

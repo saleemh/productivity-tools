@@ -1,16 +1,33 @@
-/* Hide the navigation sidebar completely */
+/* Hide the LEFT navigation sidebar completely */
 .md-sidebar--primary {
     display: none;
 }
 
-/* Adjust main content to take full width */
+/* Show the RIGHT table of contents sidebar */
+.md-sidebar--secondary {
+    display: block;
+}
+
+/* Adjust main content positioning */
 .md-main__inner {
     margin-left: 0;
 }
 
-/* Adjust content container */
+/* Adjust content container to leave space for TOC */
 .md-content {
     margin-left: 0;
+    margin-right: 12.1rem;
+}
+
+/* Adjust content on smaller screens */
+@media screen and (max-width: 76.1875em) {
+    .md-content {
+        margin-right: 0;
+    }
+    
+    .md-sidebar--secondary {
+        display: none;
+    }
 }
 
 /* Notion-like styling */
