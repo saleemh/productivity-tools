@@ -119,10 +119,37 @@ body {
     background-color: #ffffff;
 }
 
-/* Remove default Material design elements */
-.md-header__source,
+/* Remove default Material design elements but keep source link */
 .md-header__button.md-icon {
     display: none;
+}
+
+/* Style the GitHub source link to match Notion theme */
+.md-header__source {
+    display: block;
+    margin-left: auto;
+}
+
+.md-source {
+    color: #73726e;
+    font-size: 0.875rem;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.md-source:hover {
+    color: #37352f;
+}
+
+.md-source__icon {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+    opacity: 0.7;
+}
+
+.md-source__facts {
+    display: none; /* Hide star count, etc. to keep it minimal */
 }
 
 /* Search styling */
