@@ -126,8 +126,10 @@ body {
 
 /* Style the GitHub source link to match Notion theme */
 .md-header__source {
-    display: block;
+    display: flex;
+    align-items: center;
     margin-left: auto;
+    height: 100%;
 }
 
 .md-source {
@@ -135,6 +137,10 @@ body {
     font-size: 0.875rem;
     text-decoration: none;
     transition: color 0.2s;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 0.5rem;
 }
 
 .md-source:hover {
@@ -146,6 +152,12 @@ body {
     height: 1rem;
     margin-right: 0.5rem;
     opacity: 0.7;
+    flex-shrink: 0;
+}
+
+.md-source__repository {
+    display: flex;
+    align-items: center;
 }
 
 .md-source__facts {
