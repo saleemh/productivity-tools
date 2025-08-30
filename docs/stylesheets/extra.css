@@ -1,0 +1,14 @@
+/* Hide the navigation sidebar completely */
+.md-sidebar--primary {
+    display: none;
+}
+
+/* Adjust main content to take full width */
+.md-main__inner {
+    margin-left: 0;
+}
+
+/* Adjust content container */
+.md-content {
+    margin-left: 0;
+}
