@@ -33,13 +33,13 @@ jobs:
         run: |
           mkdocs build --strict
 
-      - name: Prepare SSH key
-        env:
-          SSH_KEY: ${{ secrets.SSH_KEY }}
+      - name: Setup SSH
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_KEY }}
+
+      - name: Add known hosts
         run: |
-          mkdir -p ~/.ssh
-          printf '%s\n' "$SSH_KEY" > ~/.ssh/deploy_key
-          chmod 600 ~/.ssh/deploy_key
           ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
 
       - name: Deploy via rsync
@@ -51,5 +51,5 @@ jobs:
         run: |
           PORT_OPT=""
           if [ -n "$SSH_PORT" ]; then PORT_OPT="-p $SSH_PORT"; fi
-          RSYNC_RSH="ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=yes $PORT_OPT"
+          RSYNC_RSH="ssh -o StrictHostKeyChecking=yes $PORT_OPT"
           rsync -az --delete -e "$RSYNC_RSH" --rsync-path="mkdir -p $SSH_TARGET_DIR && rsync" site/ "$SSH_USER@$SSH_HOST:$SSH_TARGET_DIR"
