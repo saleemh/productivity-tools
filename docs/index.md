@@ -1,20 +1,45 @@
-# Productivity Tools
+# Saleem's Productivity Tools
 
-This site mirrors my current productivity tools list from Notion and will evolve over time.
+*Last Updated: Aug 28, 2025*
 
-For now, this is a single page. Content here should match:
+## Mail
 
-- Notion: http://notion.saleem.net/productivity-tools
+**Front End:** Spark, iOS Mail  
+**Back End:** Google (personal), MS Office 365 (work)
 
-You can paste the exported Markdown from Notion directly here, or maintain it manually until automation is added.
+## Calendar
 
----
+**Front End:** Fantastical  
+**Back End:** MS Office 365, Google Calendar
 
-## Structure (temporary)
+## Large Language Models (LLM)
 
-- What I use it for
-- Key features or settings I rely on
-- Shortcuts or workflows
-- Links to official pages/downloads
+- **gpt-5-thinking** (default)
+- **Sonnet 4** via Claude-Code+Cursor
+- **Grok 3/4** for real-time scenarios
+- **gpt-oss-20b** for confidential work
+- **Gemini** (used sparingly)
 
-Replace this section with the actual Notion content.
+## Note Taking
+
+- **Obsidian** (primary tool)
+- **iA Writer** (markdown conversion)
+- **Claude Code** (research integration)
+- **Evernote** (historically used, now migrated)
+- **SuperNote** (pen-based)
+- **Notability** (transcription)
+
+## Development
+
+- **Cursor**
+- **Claude Code**
+- **Working Copy** (GitHub sync)
+
+## Physical Productivity Boosters
+
+- **Anker** battery pack
+- **Logitech** keyboard
+- **Moft** tripods/stands
+- **Sony** headphones
+- **Logitech** mouse
+- **Leatherman** multi-tool
