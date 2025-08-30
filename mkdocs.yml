@@ -1,4 +1,4 @@
-site_name: Productivity Tools
+site_name: Saleem's Productivity Tools
 site_url: https://saleem.net/productivity-tools/
 repo_url: https://github.com/saleemh/productivity-tools
 theme:
@@ -21,8 +21,8 @@ markdown_extensions:
       permalink: true
 plugins:
   - search
-nav:
-  - Home: index.md
+# nav:
+#   - Home: index.md
 docs_dir: docs
 site_dir: site
 use_directory_urls: true
