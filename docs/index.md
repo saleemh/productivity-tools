@@ -18,7 +18,7 @@ Here's the list of key tools in my workflow. If there are multiple to a category
 - Front End: Fantastical
 - Back End: MS Office 365 (for Family Calendar and work accounts), Google Calendar (for individual personal calendars)
 
-## LLM — Updated Aug 28
+## LLM
 
 - gpt-5-thinking as my default/go-to
 - sonnet 4 through claude-code+cursor for coding tasks and uses of long-term memory
@@ -29,7 +29,7 @@ Here's the list of key tools in my workflow. If there are multiple to a category
 
 ## Note taking
 
-### Note taking without grounding material
+### Without grounding material
 
 - Obsidian — recently started using this, and it has quickly become my go-to for most on-the-fly note taking and drafting
 - iA Writer — I use this for converting markdown files to PDF, and also working with markdown files across the various file stores I use (i.e. OneDrive, Working Copy, GDrive, ShellFish, iCloud)
@@ -38,14 +38,14 @@ Here's the list of key tools in my workflow. If there are multiple to a category
 - SuperNote (for pen-based note-taking & journaling) — I use the SuperNote Nomad, which is nice... but if I had to replace now, I would probably get the ReMarkable Pro given the color screen and reading light
 - ~~LiveScribe (OCR & search across paper notes use case)~~ — deprecated as of early 2023 given switch to SuperNote (and I think I left my Livescribe in a cafe recently anyway)
 
-### Note taking with audio grounding material
+### With audio grounding material
 
 - SuperWhisper — new default for meeting transcription & summarization; almost as good as Notability, but also allows for fully on-device execution and custom-LLM use. Also includes speaker-differentiation capabilities
 - Notability — secondary option for meeting transcription & summarization, in those situations where there is no confidential information shared. Has good transcription quality (uses OpenAI in background; better that what I've seen through Apple Intelligence + Adobe Premiere Pro), and is differentiated in that it ties the transcription based on timepoints, to your typed/handwritten notes. Still has gaps in that (1) it doesn't support on-device transcription, and (2) no speaker-differentiation capabilities
 - Loopback — for funneling audio to Notability where relevant
 - Apple Notes — for transcription when there's an on-device requirement or when I need to transcript through a phone call (and then I use Llama with Ollama or LMStudio for generating the meeting notes)
 
-### Note taking with PDF grounding material
+### With PDF grounding material
 
 - LiquidNotes (mac & ipad only; researching & mind-mapping use case) — moved out of "Notes" category, because Researching now has a category of its own tools
 - Zotero — for pulling together Research materials on any topic — integrates well with LiquidText and Consensus
