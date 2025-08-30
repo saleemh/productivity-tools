@@ -10,8 +10,8 @@ theme:
     - search.highlight
   palette:
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: white
+      accent: black
 markdown_extensions:
   - admonition
   - attr_list
