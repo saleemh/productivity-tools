@@ -71,6 +71,8 @@ Here's the list of key tools in my workflow. If there are multiple to a category
 - ~~VS Code~~ (moved off as of late 2023; my development needs aren't super intense, but Cursor + Claude Code still works better)
 - Cursor + Claude Code — I use a combination of both these tools. I tend to use Cursor for the IDE and tab-completion when I'm doing direct edits, and I tend to use Claude Code for planning and AI-led coding tasks
 - Working Copy — I use this tool daily on iOS and iPad for sync'ing active GitHub projects I'm working on (for code but mostly for research/learning tasks)
+- iTerm — I use this for my MacOS Shell; probably as simple as can be (vs Warp that has more bells and whistles), but this absolutely suffices
+- Termius — I use this for my iOS/iPadOS Shell; also simple but highly functional
 
 ## Physical Productivity Boosters Things
 
