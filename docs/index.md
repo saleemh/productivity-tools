@@ -54,7 +54,7 @@ My models of choice evolve every few days, so I'm putting a point-in-time view h
 	- Unofficial Supernote by Ratta Integration — used with my e-ink notetaker to import into Obsidian
 
 #### audio tasks
-- SuperWhisper — my default for live-transcription (this is preferable to typing as its faster)
+- SuperWhisper — my default for live-transcription (this is preferable to typing as its faster), and it works with the majority of the preferred text and speech-to-text models I mentioned in the LLM section above
 - Custom software for meeting transcription & summarization (I've built this and use variants of it for all transcription & meeting note generation)
 - Voice Notes — this is the basic audio recording app on iOS, MacOS, iPadOS and I've found it to be most reliable for recording and saving raw audio
 - Loopback — for funneling audio to Voice Notes
