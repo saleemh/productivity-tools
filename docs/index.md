@@ -43,6 +43,7 @@ My models of choice evolve every few days, so I'm putting a point-in-time view h
 ## Note taking
 
 #### text tasks
+
 - Obsidian — I started moving almost all my note taking to Obsidian starting mid/late 2025, and have not looked back. I've sunset my uses for Evernote, Supernote
 - Important Obsidian plugins in my workflow
 	- Obsidian Web Clipper — to pull websites in as markdown
@@ -52,14 +53,12 @@ My models of choice evolve every few days, so I'm putting a point-in-time view h
 	- Marp Slides — for slide viewing when I create marp-format markdown through other tools
 	- Unofficial Supernote by Ratta Integration — used with my e-ink notetaker to import into Obsidian
 
-audio tasks
+#### audio tasks
 - SuperWhisper — my default for live-transcription (this is preferable to typing as its faster)
 - Custom software for meeting transcription & summarization (I've built this and use variants of it for all transcription & meeting note generation)
 - Voice Notes — this is the basic audio recording app on iOS, MacOS, iPadOS and I've found it to be most reliable for recording and saving raw audio
 - Loopback — for funneling audio to Voice Notes
-
-May 2026 Note: this category has evolved more for me in the last 6 months than the 10 years prior. I use the following other tools for specialized tasks, but these are now linked through Obsidian
-
+#### note taking for specialized work
 - LiquidNotes (mac & ipad only; researching & mind-mapping use case) — I only use this when I need to annotate & link across PDFs
 - Zotero — for pulling together Research materials on any topic; integrates with Obsidian through a number of plugins
 - Notability (simple pdf markup, signatures)
@@ -68,7 +67,7 @@ May 2026 Note: this category has evolved more for me in the last 6 months than t
 
 - Obsidian with Tasks plugin — this (along with task manipulation through Claude Code/Codex) is 90% of my task management
 
-Similar to note-taking tasks, task management outside of Obsidian is for specialized work, namely:
+#### task management for specialized work
 - AnyList (for groceries & shopping list use case, and shared w/ family)
 - Notion (for trip planning use case; shifted off Trello to Notion in 2023-ish) 
 
