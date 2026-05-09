@@ -27,22 +27,22 @@ May 2026 Note: I moved off Fantastical, given that, like e-mail, I'm just lookin
 
 My models of choice evolve every few days, so I'm putting a point-in-time view here
 
-text / coding tasks
+#### text / coding tasks
 - personal / consumer uses — gpt 5.5 with low effort via codex
 - work / IBM uses — opus 4.7 with high effort via claude code
 - work / non-IBM uses — combinations of gpt 5.5 with low effort and opus 4.7 with medium effort 
 - local / on-device — qwen 3.6 and gemma 4 (largest model that can run on given hardware I'm using)
 
-image-gen tasks
+#### image-gen tasks
 - I don't have a model of choice yet, but I tend to use Replicate for my platform and utilize across flux, gpt and nano-banana
 
-speech to text
+#### speech to text
 - parakeet-english is still my default go-to alongside pyannote for diarization
 - I have an eval framework that compares parakeet against the others of the top 4 — I use one of these others when I'm looking for higher quality and willing to compromise on speed — Cohere Transcribe, Mistral Voxtral, Granite Speech
 
 ## Note taking
 
-text tasks
+#### text tasks
 - Obsidian — I started moving almost all my note taking to Obsidian starting mid/late 2025, and have not looked back. I've sunset my uses for Evernote, Supernote
 - Important Obsidian plugins in my workflow
 	- Obsidian Web Clipper — to pull websites in as markdown
