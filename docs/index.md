@@ -167,7 +167,7 @@ My models of choice evolve every few days, so I'm putting a point-in-time view h
 
 - Cardhop and Contacts app via iCloud (for e-mail/phone & birthdays)
 - Excel (physical addresses)
-- MacFamilyTree (for family history & connections ) — i really dislike this because they keep making me pay for a new version, but there's nothing that's decent out there instead
+- Custom family tree app built on GrampsWeb — I am using this as a stop-gap to manage family tree information, because it's better than MacFamilyTree (which I used previously). I expect to move off this to pure markdown repository with time
 
 ## News
 
