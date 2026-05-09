@@ -46,12 +46,13 @@ My models of choice evolve every few days, so I'm putting a point-in-time view h
 
 - Obsidian — I started moving almost all my note taking to Obsidian starting mid/late 2025, and have not looked back. I've sunset my uses for Evernote, Supernote
 - Important Obsidian plugins in my workflow
-	- Obsidian Web Clipper — to pull websites in as markdown
-	- Git — for fast sync with a repo as I update files
-	- Kanban — comes in handy when I want a Kanban view (while still using markdown)
-	- Tasks — fully functional task management system; has allowed me to move off of Cultured Code's Things app ecosystem (which I love, but doesn't allow easy manipulation through AI assistants)
-	- Marp Slides — for slide viewing when I create marp-format markdown through other tools
-	- Unofficial Supernote by Ratta Integration — used with my e-ink notetaker to import into Obsidian
+	- Obsidian Web Clipper ([link](https://obsidian.md/clipper)) — to pull websites in as markdown
+	- Git ([link](obsidian://show-plugin?id=obsidian-git))— for fast sync with a repo as I update files
+	- Open in Github ([link](obsidian://show-plugin?id=open-in-github))— adds an option to open the given file on Github (easier to then share)
+	- Kanban ([link](obsidian://show-plugin?id=obsidian-kanban))— comes in handy when I want a Kanban view (while still using markdown)
+	- Tasks ([link](obsidian://show-plugin?id=obsidian-tasks-plugin))— fully functional task management system; has allowed me to move off of Cultured Code's Things app ecosystem (which I love, but doesn't allow easy manipulation through AI assistants)
+	- Marp Slides ([link](obsidian://show-plugin?id=marp-slides))— for slide viewing when I create marp-format markdown through other tools
+	- Unofficial Supernote by Ratta Integration ([link](obsidian://show-plugin?id=supernote))— used with my e-ink notetaker to import into Obsidian
 
 #### audio tasks
 - SuperWhisper — my default for live-transcription (this is preferable to typing as its faster), and it works with the majority of the preferred text and speech-to-text models I mentioned in the LLM section above
