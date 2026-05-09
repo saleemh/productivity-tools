@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1ee1644e0734f707",
+        "id": "0a70accde4e36324",
         "type": "tabs",
         "children": [
           {
-            "id": "a508f447772b4ecf",
+            "id": "da7c768c091899e1",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/appearance.json",
-                "bFile": ".obsidian/appearance.json",
-                "aRef": ""
+                "file": "docs/index.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: appearance.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "index"
             }
           }
         ]
@@ -94,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for index"
             }
           },
           {
@@ -112,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "docs/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from index"
             }
           },
           {
@@ -154,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "docs/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of index"
             }
           },
           {
@@ -191,7 +194,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a508f447772b4ecf",
+  "active": "da7c768c091899e1",
   "lastOpenFiles": [
     "docs/index.md"
   ]

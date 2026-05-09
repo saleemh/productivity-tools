@@ -1,6 +1,6 @@
 # Saleem's Productivity Tools
 
-Last updated Aug 29, 2025
+Last updated May 9, 2026
 
 Here's the list of key tools in my workflow. If there are multiple to a category, the primary tool I use is listed first, and then there are use-case specific ones after that
 
@@ -10,69 +10,76 @@ Here's the list of key tools in my workflow. If there are multiple to a category
 
 ## Mail
 
-- Front End: Spark, iOS Mail (where Spark isn't supported use case)
-- Back End: Google (for personal accounts), MS Office 365 (for work accounts)
+- AI Front End: Claude Code and Codex for email prioritization and drafting
+- UI Front End: Gmail, Outlook
+- Back End: Google, MS Office 365
+
+May 2026 Note: I moved off Spark and Superhuman; I'm no longer looking for any advanced features in the email client given that I offload the complex tasks (like folder organization and e-mail rules to Claude & Code) 
 
 ## Calendar
 
-- Front End: Fantastical
-- Back End: MS Office 365 (for Family Calendar and work accounts), Google Calendar (for individual personal calendars)
+- Front End: Outlook
+- Back End: MS Office 365 (for Family Calendar, IBM and public service accounts), Google Calendar (for  personal calendars and non-IBM work)
+
+May 2026 Note: I moved off Fantastical, given that, like e-mail, I'm just looking for basic functionality, a consolidated view, and reliability in my calendar view
 
 ## LLM
 
-- gpt-5-thinking as my default/go-to
-- sonnet 4 through claude-code+cursor for coding tasks and uses of long-term memory
-- parakeet-english for on-device automatic speech transcription (using Superwhisper front-end)
-- grok 3/4 for things that are happening real time, and in-car use
-- gpt-oss-20b for on-laptop/confidential work
-- (note I recognize gemini is really good, but the ux/ui bothers me so i only use it when i have to, like for youtube summarization or making storybooks)
+My models of choice evolve every few days, so I'm putting a point-in-time view here
+
+text / coding tasks
+- personal / consumer uses — gpt 5.5 with low effort via codex
+- work / IBM uses — opus 4.7 with high effort via claude code
+- work / non-IBM uses — combinations of gpt 5.5 with low effort and opus 4.7 with medium effort 
+- local / on-device — qwen 3.6 and gemma 4 (largest model that can run on given hardware I'm using)
+
+image-gen tasks
+- I don't have a model of choice yet, but I tend to use Replicate for my platform and utilize across flux, gpt and nano-banana
+
+speech to text
+- parakeet-english is still my default go-to alongside pyannote for diarization
+- I have an eval framework that compares parakeet against the others of the top 4 — I use one of these others when I'm looking for higher quality and willing to compromise on speed — Cohere Transcribe, Mistral Voxtral, Granite Speech
 
 ## Note taking
 
-### Without grounding material
+text tasks
+- Obsidian — I started moving almost all my note taking to Obsidian starting mid/late 2025, and have not looked back. I've sunset my uses for Evernote, Supernote
+- Important Obsidian plugins in my workflow
+	- Obsidian Web Clipper — to pull websites in as markdown
+	- Git — for fast sync with a repo as I update files
+	- Kanban — comes in handy when I want a Kanban view (while still using markdown)
+	- Tasks — fully functional task management system; has allowed me to move off of Cultured Code's Things app ecosystem (which I love, but doesn't allow easy manipulation through AI assistants)
+	- Marp Slides — for slide viewing when I create marp-format markdown through other tools
+	- Unofficial Supernote by Ratta Integration — used with my e-ink notetaker to import into Obsidian
 
-- Obsidian — recently started using this, and it has quickly become my go-to for most on-the-fly note taking and drafting
-- iA Writer — I use this for converting markdown files to PDF, and also working with markdown files across the various file stores I use (i.e. OneDrive, Working Copy, GDrive, ShellFish, iCloud)
-- Claude Code — When I mix note taking with research, I use a combination of text-editing in iA Writer + direct edits from the AI with Claude Code
-- ~~Evernote (I've used this since 2008 for all general note taking... it would take a lot to move me off this as the primary note taking tool) — Aug2025 UPDATE: I've now completed a move off Evernote fully to Obsidian; using [evernote2obsidian](https://github.com/AltoRetrato/evernote2obsidian) and [evernote-backup](https://github.com/vzhd1701/evernote-backup/)~~
-- SuperNote (for pen-based note-taking & journaling) — I use the SuperNote Nomad, which is nice... but if I had to replace now, I would probably get the ReMarkable Pro given the color screen and reading light
-- ~~LiveScribe (OCR & search across paper notes use case)~~ — deprecated as of early 2023 given switch to SuperNote (and I think I left my Livescribe in a cafe recently anyway)
+audio tasks
+- SuperWhisper — my default for live-transcription (this is preferable to typing as its faster)
+- Custom software for meeting transcription & summarization (I've built this and use variants of it for all transcription & meeting note generation)
+- Voice Notes — this is the basic audio recording app on iOS, MacOS, iPadOS and I've found it to be most reliable for recording and saving raw audio
+- Loopback — for funneling audio to Voice Notes
 
-### With audio grounding material
+May 2026 Note: this category has evolved more for me in the last 6 months than the 10 years prior. I use the following other tools for specialized tasks, but these are now linked through Obsidian
 
-- SuperWhisper — new default for meeting transcription & summarization; almost as good as Notability, but also allows for fully on-device execution and custom-LLM use. Also includes speaker-differentiation capabilities
-- Notability — secondary option for meeting transcription & summarization, in those situations where there is no confidential information shared. Has good transcription quality (uses OpenAI in background; better that what I've seen through Apple Intelligence + Adobe Premiere Pro), and is differentiated in that it ties the transcription based on timepoints, to your typed/handwritten notes. Still has gaps in that (1) it doesn't support on-device transcription, and (2) no speaker-differentiation capabilities
-- Loopback — for funneling audio to Notability where relevant
-- Apple Notes — for transcription when there's an on-device requirement or when I need to transcript through a phone call (and then I use Llama with Ollama or LMStudio for generating the meeting notes)
-
-### With PDF grounding material
-
-- LiquidNotes (mac & ipad only; researching & mind-mapping use case) — moved out of "Notes" category, because Researching now has a category of its own tools
-- Zotero — for pulling together Research materials on any topic — integrates well with LiquidText and Consensus
-- Consensus.app (for finding relevant research to a given topic) — June 2025 update: I use this less and less, as the Deep Research capabilities from OpenAI are getting better... so I suspect I'll take this off the list by the end of the year
-- NotebookLM — for summarizing text into audio
+- LiquidNotes (mac & ipad only; researching & mind-mapping use case) — I only use this when I need to annotate & link across PDFs
+- Zotero — for pulling together Research materials on any topic; integrates with Obsidian through a number of plugins
 - Notability (simple pdf markup, signatures)
-
-## Image / Video tasks
-
-- Gemini vue 3 for new video generation
-- Flux-context-max on Replicate for image optimization
-- King AI for existing-image to video conversion
 
 ## Task management
 
-- Things
+- Obsidian with Tasks plugin — this (along with task manipulation through Claude Code/Codex) is 90% of my task management
+
+Similar to note-taking tasks, task management outside of Obsidian is for specialized work, namely:
 - AnyList (for groceries & shopping list use case, and shared w/ family)
-- Microsoft Todo (for shared tasks w/ family use case, mainly accessed through iOS Reminders & Fantastical)
-- Notion (for trip planning use case; shifted off Trello to Notion in 2023-ish) — I also use Notion AI but it's pretty bad compared to just directly using GPT models and copying responses back into Notion
+- Notion (for trip planning use case; shifted off Trello to Notion in 2023-ish) 
 
 ## Development
 
-- ~~VS Code~~ (moved off as of late 2023; my development needs aren't super intense, but Cursor + Claude Code still works better)
-- Cursor + Claude Code — I use a combination of both these tools. I tend to use Cursor for the IDE and tab-completion when I'm doing direct edits, and I tend to use Claude Code for planning and AI-led coding tasks
-- Working Copy — I use this tool daily on iOS and iPad for sync'ing active GitHub projects I'm working on (for code but mostly for research/learning tasks)
-- iTerm — I use this for my MacOS Shell; probably as simple as can be (vs Warp that has more bells and whistles), but this absolutely suffices
-- Termius — I use this for my iOS/iPadOS Shell; also simple but highly functional
+- Claude Code with Claude model access via LiteLLM / AWS — this is the tooling I use for IBM work
+- Cursor + Claude Code + Cursor — I use a combination of these tools so that I don't have to hit token limits — I have $20/month accounts on those 3, and have been able to keep it that way rather than moving to the higher tier accounts for now. When I work across repo's, I prefer Cursor given its multi-repo workspace concept it adopts through VS Code
+- iTerm — I use this for my MacOS shell
+- Termius — I use this for my iOS/iPadOS Shell
+- VNCViewer (on MacOS) and JumpDesktop (on iOS / iPadOS) for server access when I'm also using browser-control
+- MCP Playwright — I use this open source project for browser-control tasks (versus the built-in capabilities that come through Codex and Claude), so that I can have better control and define my own workflows
 
 ## Physical Productivity Boosters Things
 
@@ -135,18 +142,14 @@ Here's the list of key tools in my workflow. If there are multiple to a category
 
 ## Browsers
 
-- Safari — this is my default
-- Chrome — for web apps like Outlook
-- Dia — I use this a GenAI browser in those situations where I'm going to be focused on 'web browsing' as an activity
+- Chrome — my default
+- Safari — backup
+- (I've tried the genAI browsers, but the dev-tools and custom-plugin import ability of Chrome make it win for me)
+
 
 ---
 
 **Things that aren't working really well yet, so trying to figure out best way**
-
-## Browser-Use Agents
-
-- Browser-Use (It's open-source and runs on laptop, which is great, but doesn't work all that well. Main issue that it doesn't let the user pause and take over the screen mid-execution)
-- Claude Computer-Use (This works better than anything else I've used, but it just chews through $ and is also slow. As this gets cheaper and better, it would be positioned to be my chosen option (until the on-laptop tool gets better)
 
 ## Personal finances
 
@@ -156,20 +159,18 @@ Here's the list of key tools in my workflow. If there are multiple to a category
 ## Health & Wellness Tracking
 
 - [No good default tool... this is a gap right now; I tried tools like MyFitnessPal, but nothing has integrated well into my life]
-- ~~Peloton (cycling use case)~~ — deprecated in early 2024, moved to LifeTime app since this tech is tied to whatever the subscription is for
 - Strava (tracking stats from runs & bike rides use case)
 - Gaia Maps (tracking maps for hikes and bike rides)
 
 ## Family & Friend info management
 
-- ~~MonicaHQ (for cataloging events use case)~~ — deprecated in 2022; didn't work out
-- Contacts app via iCloud (for e-mail/phone & birthdays)
+- Cardhop and Contacts app via iCloud (for e-mail/phone & birthdays)
 - Excel (physical addresses)
 - MacFamilyTree (for family history & connections ) — i really dislike this because they keep making me pay for a new version, but there's nothing that's decent out there instead
 
 ## News
 
-- The Economist
+- The Economist, The Information, Pitchbook
 - X / Google
 - NYTimes, Slate, WSJ
 - Gale (the text-based service through which I access The Economist)
@@ -182,16 +183,12 @@ Here's the list of key tools in my workflow. If there are multiple to a category
 - Discord (for family)
 - Slack (for IBM work)
 
-## Documents & presentations
-
-- MS Office
-- ~~Dropbox Paper (for town work) — deprecated as of 2021~~
-- ~~Box Notes (for ibm work) — deprecated in Nov 2024; worked fine but we moved off Box~~
 
 ---
 
 ## History
 
+- 05/2026 — new pass; major changes in all categories, and consolidation into less tools
 - 08/2025 — updated LLMs and cloud storage, added VPN section, tweaks to  note-taking, development
 - 07/2025 — added obsidian, moft & LLM updates
 - 06/2025 — updates across all categories
