@@ -14,7 +14,7 @@ Here is the list of key tools in my workflow. If there are multiple to a categor
 - UI Front End: Gmail, Outlook
 - Back End: Google, MS Office 365
 
-May 2026 Note: I moved off Spark and Superhuman; I'm no longer looking for any advanced features in the email client given that I offload the complex tasks (like folder organization and e-mail rules to Claude & Code) 
+May 2026 Note: I moved off Spark and Superhuman; I'm no longer looking for any advanced features in the email client given that I offload the complex tasks (like folder organization and e-mail rules to Claude & Codex) 
 
 ## Calendar
 
