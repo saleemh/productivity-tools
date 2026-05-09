@@ -83,16 +83,18 @@ Similar to note-taking tasks, task management outside of Obsidian is for special
 
 ## Physical Productivity Boosters Things
 
-- Anker 5k wireless-chargeable battery pack with built-in kickstand (i bring 1-2 of these with me at all times given it comes in handy so often)
-- Logitech Keys-to-Go 2 (this keyboard I also bring with me everywhere, and it supports 3 one-touch configs, which I have linked to my phone, ipad and laptop, for easy switching)
-- Moft snap tripod for iPhone (works well with the keyboard, and easy to carry everywhere), and Moft iPad Dynamic Folio (this is an essential accessory for me; allows me to use my iPad in all the different environments I find myself in)
-- Full Windsor Magnetic Flatware (I bring this to be able to use as utensils, comes in handy)
-- Logitech 4k brio camera (high quality and super portable, fits in one of those tiny pockets of a peakdesign tech bag)
-- EDC flashlight (high powered, tiny and easy to pocket)
-- Sony 1000XM6 (perfect for focus, calls, etc)
-- Logitech MX Master 3S (best mouse I've used, and I also carry this around)
-- Leatherman Charge+TTI (the best pocketknife...)
-- PeakDesign (go-to brand for carrying all of above)
+- Anker 6-in-1 USB C Hub ([Amazon](https://www.amazon.com/dp/B08C9HZ5YT)) — I carry this around everywhere and comes in handy almost every day
+- Anker 25k wireless-chargeable battery pack ([Amazon](https://www.amazon.com/dp/B0DCBB2YTR)) — I also carry everywhere; has pass through charging and can charge a large laptop + 2 other devices simultaneously at near full speed
+- Logitech Keys-to-Go 2 ([Amazon](https://www.amazon.com/Logitech-Portable-Wireless-Keyboard-Bluetooth/dp/B0D2FD5994))— this keyboard I also bring with me everywhere, and it supports 3 one-touch configs, which I have linked to my phone, ipad and laptop, for easy switching
+- Neo65 Keyboard — this is my day-to-day keyboard; requires custom assembly. Parts = (1) Neo65 Cu Custom Mechanical Keyboard from QwertyKeys with a copper bottom, brass weight, tri-mode hotswap PCB, and PP plate, Gazzew Boba U4 Silent Tactile switches, and GMK key caps
+- Moft Trackable Tripod Wallet ([Moft Site](https://www.moft.us/products/magsafe-tripod-wallet-stand-with-find-my?variant=42702829355095)) — works well with the keyboard, and easy to carry everywhere, and Moft iPad Dynamic Folio (this is an essential accessory for me; allows me to use my iPad in all the different environments I find myself in)
+- Full Windsor Magnetic Flatware — I bring this to be able to use as utensils, comes in handy
+- Logitech 4k brio camera — high quality and super portable, fits in one of those tiny pockets of a peakdesign tech bag
+- EDC flashlight — high powered, tiny and easy to pocket
+- Sony 1000XM6 — perfect for focus, calls, etc
+- Logitech MX Master 4 — best mouse, and I also carry this around
+- Leatherman Charge+TTI — the best pocketknife...
+- PeakDesign — go-to brand for carrying all of above
 
 ## Legal Services
 
