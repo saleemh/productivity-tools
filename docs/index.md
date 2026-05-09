@@ -88,7 +88,7 @@ My models of choice evolve every few days, so I'm putting a point-in-time view h
 - Neo65 Keyboard — this is my day-to-day keyboard; requires custom assembly. Parts = (1) Neo65 Cu Custom Mechanical Keyboard from QwertyKeys with a copper bottom, brass weight, tri-mode hotswap PCB, and PP plate, Gazzew Boba U4 Silent Tactile switches, and GMK key caps (note: still assembling but excited to start using it :))
 - Moft Trackable Tripod Wallet ([Moft Site](https://www.moft.us/products/magsafe-tripod-wallet-stand-with-find-my?variant=42702829355095)) — works well with the keyboard, and easy to carry everywhere, and Moft iPad Dynamic Folio (this is an essential accessory for me; allows me to use my iPad in all the different environments I find myself in)
 - Full Windsor Magnetic Flatware — I bring this to be able to use as utensils, comes in handy
-- Logitech 4k brio camera — high quality and super portable, fits in one of those tiny pockets of a peakdesign tech bag
+- Logitech 4k brio camera — high quality and super portable, fits in one of those tiny pockets of a peak design tech bag
 - EDC flashlight — high powered, tiny and easy to pocket
 - Sony 1000XM6 — perfect for focus, calls, etc
 - Logitech MX Master 4 — best mouse, and I also carry this around
