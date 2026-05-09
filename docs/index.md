@@ -74,7 +74,7 @@ My models of choice evolve every few days, so I'm putting a point-in-time view h
 ## Development
 
 - Claude Code with Claude model access via LiteLLM / AWS — this is the tooling I use for IBM work
-- Cursor + Claude Code + Cursor — I use a combination of these tools so that I don't have to hit token limits — I have $20/month accounts on those 3, and have been able to keep it that way rather than moving to the higher tier accounts for now. When I work across repo's, I prefer Cursor given its multi-repo workspace concept it adopts through VS Code
+- Cursor + Claude Code + Cursor — I use a combination of these tools for all non-IBM tasks, so that I don't have to hit token limits — I have $20/month accounts on those 3, and have been able to keep it that way rather than moving to the higher tier accounts for now. When I work across repo's, I prefer Cursor given its multi-repo workspace concept it adopts through VS Code
 - iTerm — I use this for my MacOS shell
 - Termius — I use this for my iOS/iPadOS Shell
 - VNCViewer (on MacOS) and JumpDesktop (on iOS / iPadOS) for server access when I'm also using browser-control
