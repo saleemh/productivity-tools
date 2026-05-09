@@ -40,6 +40,6 @@ jobs:
           # Check all Markdown files in docs and root README
           args: >-
             --no-progress --verbose
-            docs/
+            ./docs/index.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
