@@ -183,6 +183,7 @@ My models of choice evolve every few days, so I'm putting a point-in-time view h
 - WhatsApp (only for others using WhatsApp)
 - Discord (for family)
 - Slack (for IBM work)
+- Google Chat (for non-IBM work)
 
 
 ---
