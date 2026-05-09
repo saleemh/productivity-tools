@@ -2,7 +2,7 @@
 
 Last updated May 9, 2026
 
-Here's the list of key tools in my workflow. If there are multiple to a category, the primary tool I use is listed first, and then there are use-case specific ones after that
+Here is the list of key tools in my workflow. If there are multiple to a category, the primary tool I use is listed first, and then there are use-case specific ones after that
 
 ---
 
