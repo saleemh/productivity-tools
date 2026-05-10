@@ -60,16 +60,16 @@ My models of choice evolve every few days, so I'm putting a point-in-time view h
 - Voice Notes — this is the basic audio recording app on iOS, MacOS, iPadOS and I've found it to be most reliable for recording and saving raw audio
 - Loopback — for funneling audio to Voice Notes
 #### note taking for specialized work
-- LiquidNotes (mac & ipad only; researching & mind-mapping use case) — I only use this when I need to annotate & link across PDFs
-- Zotero — for pulling together Research materials on any topic; integrates with Obsidian through a number of plugins
-- Notability (simple pdf markup, signatures)
+- LiquidText [link](https://www.liquidtext.net/) (mac & ipad only; researching & mind-mapping use case) — I only use this when I need to annotate & link across PDFs
+- Zotero [link](https://www.zotero.org/)— for pulling together Research materials on any topic; integrates with Obsidian through a number of plugins
+- Notability [link](https://notability.com/) (simple pdf markup, signatures)
 
 ## Task management
 
 - Obsidian with Tasks plugin — this (along with task manipulation through Claude Code/Codex) is 90% of my task management
 
 #### task management for specialized work
-- AnyList (for groceries & shopping list use case, and shared w/ family)
+- AnyList [link](https://www.anylist.com/) (for groceries & shopping list use case, and shared w/ family)
 - Notion (for trip planning use case; shifted off Trello to Notion in 2023-ish) 
 
 ## Development
