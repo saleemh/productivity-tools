@@ -49,6 +49,7 @@ My models of choice evolve every few days, so I'm putting a point-in-time view h
 	- Obsidian Web Clipper ([link](https://obsidian.md/clipper)) — to pull websites in as markdown
 	- Git ([link](obsidian://show-plugin?id=obsidian-git))— for fast sync with a repo as I update files
 	- Open in Github ([link](obsidian://show-plugin?id=open-in-github))— adds an option to open the given file on Github (easier to then share)
+	- Open in Github ([link to official plugin](obsidian://show-plugin?id=open-in-github), [link to my fork](https://github.com/saleemh/obsidian-open-in-github-plugin)) — this adds a menu item when you right-click any file, that lets you open the file through a browser on Github. The fork I've linked is the version I use, where I also added a configurable capability to open files in Github Enterprise (as well as other custom Git URLs)
 	- Kanban ([link](obsidian://show-plugin?id=obsidian-kanban))— comes in handy when I want a Kanban view (while still using markdown)
 	- Tasks ([link](obsidian://show-plugin?id=obsidian-tasks-plugin))— fully functional task management system; has allowed me to move off of Cultured Code's Things app ecosystem (which I love, but doesn't allow easy manipulation through AI assistants)
 	- BART ([link](obsidian://show-plugin?id=obsidian42-brat))—let's you test new obsidian plugins before publishing them (I do this when I customize the plugins for my own uses)
