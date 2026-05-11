@@ -51,6 +51,7 @@ My models of choice evolve every few days, so I'm putting a point-in-time view h
 	- Open in Github ([link](obsidian://show-plugin?id=open-in-github))— adds an option to open the given file on Github (easier to then share)
 	- Kanban ([link](obsidian://show-plugin?id=obsidian-kanban))— comes in handy when I want a Kanban view (while still using markdown)
 	- Tasks ([link](obsidian://show-plugin?id=obsidian-tasks-plugin))— fully functional task management system; has allowed me to move off of Cultured Code's Things app ecosystem (which I love, but doesn't allow easy manipulation through AI assistants)
+	- BART ([link](obsidian://show-plugin?id=obsidian42-brat))—let's you test new obsidian plugins before publishing them (I do this when I customize the plugins for my own uses)
 	- Marp Slides ([link](obsidian://show-plugin?id=marp-slides))— for slide viewing when I create marp-format markdown through other tools
 	- Unofficial Supernote by Ratta Integration ([link](obsidian://show-plugin?id=supernote))— used with my e-ink notetaker to import into Obsidian
 
